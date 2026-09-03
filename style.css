@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+:root{--ink:#171412;--cream:#f6f0e6;--paper:#fffaf2;--rust:#9f432c;--gold:#bd8a39;--muted:#766b60}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"DM Sans",sans-serif}nav{min-height:64px;display:flex;align-items:center;gap:14px;padding:10px 3vw;border-bottom:1px solid #ffffff2e;flex-wrap:wrap;background:#10101f}
+nav a{color:#fff;text-decoration:none;font-size:13px}
+.assignment-badge{border:1px solid #d6a84f;border-radius:22px;padding:9px 15px;color:#e5b65e;font-weight:700;letter-spacing:1.2px;font-size:12px;white-space:nowrap}
+.cap{font-size:13px;margin-right:5px}
+.student-info{font-size:14px;color:#e9e3dc;white-space:nowrap}
+.student-info strong{color:#d9a64e}
+.separator{color:#c9973f;font-size:16px}
+.nav-links{margin-left:auto;display:flex;gap:20px}
+.nav-links a:hover{color:#e1ad61}.hero{min-height:680px;background:linear-gradient(90deg,#16110ddd,#16110d55),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='700'%3E%3Crect width='1200' height='700' fill='%236e3525'/%3E%3Cg opacity='.18' fill='none' stroke='%23e9c98b' stroke-width='4'%3E%3Ccircle cx='950' cy='330' r='220'/%3E%3Ccircle cx='950' cy='330' r='175'/%3E%3Cpath d='M730 330h440M950 110v440M795 175l310 310M1105 175L795 485'/%3E%3C/g%3E%3C/svg%3E");background-size:cover;color:#fff}.hero-content{max-width:760px;padding:130px 8vw}.eyebrow{font-size:11px;letter-spacing:3px;font-weight:700;color:var(--gold);margin:0 0 14px}.hero h1{font:700 clamp(56px,8vw,104px)/.9 "Playfair Display",serif;margin:0 0 28px}.hero h1 em{color:#e1ad61}.hero-content>p:not(.eyebrow){font-size:18px;line-height:1.7;max-width:590px;color:#eee}.btn{display:inline-block;margin-top:18px;padding:14px 22px;background:var(--gold);color:#171412;text-decoration:none;font-weight:700}.intro{max-width:850px;padding:100px 8vw 65px}.intro h2,.section-head h2,.about h2{font:600 clamp(34px,5vw,58px)/1.05 "Playfair Display",serif;margin:0 0 20px}.intro>p:last-child{color:var(--muted);font-size:17px;line-height:1.8;max-width:700px}.timeline-section,.gallery-section{padding:35px 6vw 100px}.section-head{display:flex;align-items:end;justify-content:space-between;margin-bottom:40px}.controls button{border:1px solid #c9bba8;background:none;width:45px;height:45px;margin-left:6px;font-size:20px;cursor:pointer}.timeline-wrap{overflow:hidden;padding:25px 0 30px}.timeline{display:flex;gap:22px;transition:transform .5s ease}.line{height:2px;background:#cbbba7;position:absolute;left:6vw;right:6vw;margin-top:205px}.card{min-width:290px;max-width:290px;background:var(--paper);border:1px solid #e1d5c5;cursor:pointer;position:relative;z-index:1;box-shadow:0 10px 35px #5c432014}.card:hover{transform:translateY(-7px);transition:.25s}.art{height:205px;background:#e9decd;display:grid;place-items:center;overflow:hidden}.card-body{padding:20px}.date{font-size:12px;color:var(--rust);font-weight:700;letter-spacing:1px}.card h3{font:700 25px "Playfair Display",serif;margin:8px 0}.card p{color:var(--muted);font-size:13px;line-height:1.6}.svg-art{width:100%;height:100%}.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:25px}.filter{border:1px solid #c9bba8;background:none;padding:9px 14px;cursor:pointer}.filter.active{background:var(--ink);color:#fff}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.gallery .card{min-width:0;max-width:none}.about{padding:90px 8vw;display:grid;grid-template-columns:1fr 1fr;gap:70px;background:#1b1714;color:#fff}.about p{line-height:1.8;color:#d8d0c7}.about .eyebrow{color:#e1ad61}.source-note{font-size:12px!important;color:#a99d91!important}footer{text-align:center;padding:25px;background:#100e0c;color:#bdb3aa;font-size:12px}.modal{position:fixed;inset:0;background:#000b;display:none;place-items:center;padding:20px;z-index:10}.modal.show{display:grid}.modal-box{background:var(--paper);max-width:850px;width:100%;max-height:90vh;overflow:auto;position:relative;padding:35px}.close{position:absolute;right:16px;top:12px;border:0;background:none;font-size:34px;cursor:pointer}.detail{display:grid;grid-template-columns:45% 55%;gap:35px;align-items:center}.detail h2{font:700 45px "Playfair Display",serif;margin:5px 0 12px}.detail p{line-height:1.75;color:var(--muted)}.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:20px 0}.fact{padding:12px;background:#efe6d8}.fact b{display:block;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--rust);margin-bottom:3px}@media(max-width:800px){.gallery{grid-template-columns:1fr 1fr}.about,.detail{grid-template-columns:1fr}.hero-content{padding-top:90px}.line{display:none}}@media(max-width:550px){nav{gap:8px;padding:9px 4vw}.assignment-badge{font-size:10px}.student-info{font-size:11px}.separator{display:none}.nav-links{width:100%;margin-left:0;justify-content:center}.gallery{grid-template-columns:1fr}.timeline-section,.gallery-section{padding-left:5vw;padding-right:5vw}.intro{padding-left:5vw}.hero-content{padding-left:5vw;padding-right:5vw}}
+
+.project-section{padding:75px 6vw 45px;background:#f0e8da}
+.project-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:35px;align-items:start}
+.project-intro{background:#1b1714;color:#fff;padding:32px}
+.project-intro h3{font:600 34px "Playfair Display",serif;margin:0 0 12px;color:#e1ad61}
+.project-intro p{line-height:1.8;color:#d8d0c7}
+.feature-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}
+.feature-list span{border:1px solid #80694d;padding:8px 10px;font-size:11px;color:#eadfce}
+.requirements-table{background:#fffaf2;border:1px solid #dfd2c0}
+.req-row{display:grid;grid-template-columns:1.1fr 1.5fr 1fr;gap:12px;padding:12px 15px;border-bottom:1px solid #e6dbcc;font-size:12px}
+.req-row:last-child{border-bottom:0}
+.req-head{background:#211b17;color:#e4b45d;text-transform:uppercase;letter-spacing:1px;font-size:10px}
+.click-guide{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:25px}
+.click-guide div{background:#fffaf2;border:1px solid #dfd2c0;padding:15px}
+.click-guide strong{display:block;font-size:13px;margin-bottom:5px}
+.click-guide small{color:#766b60;line-height:1.4}
+@media(max-width:900px){.project-grid{grid-template-columns:1fr}.click-guide{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:550px){.click-guide{grid-template-columns:1fr 1fr}.req-row{font-size:10px;padding:10px 8px}}
+
+.photo-art{background:#e9decd;position:relative}
+.photo-art img{width:100%;height:100%;object-fit:cover;display:block}
+.detail .photo-art{height:430px}
+.image-error{display:grid;place-items:center;text-align:center;padding:20px;color:#766b60;font-size:12px}
+@media(max-width:800px){.detail .photo-art{height:330px}}
